@@ -85,7 +85,7 @@ function kaiju_animate()
 {
 
 	//Makes sure the sprite is facing the right way.
-	image_xscale = facing;
+	image_xscale = facing * scale;
 
 	//Changes parts of the sprite that need to be changed by the animation.
 	if (hdir == 0) //Standing still.
@@ -95,16 +95,13 @@ function kaiju_animate()
 	}
 	else //Running
 	{
-		image_speed = KAIJU_ANIM_SPEED;
+		image_speed = 1;
 	}
 
 	if !(grounded)
 	{
-		if (vsp > 0)
-		{
 			image_index = 3;
 			image_speed = 0;
-		}
 	}
 
 	if (angle != -1)
