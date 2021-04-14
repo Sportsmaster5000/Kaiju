@@ -36,4 +36,6 @@ function globals()
 	
 	//Background music.
 	global.bgm = noone;
+	
+	global.maxJumps = 1;
 }

@@ -23,7 +23,7 @@ function player_jump()
 	}
     
 	//If the player is holding the jump button, this offsets gravity, increasing their jump power.
-	vsp -= A_BUTTON * DOLL_GRAV_OFFSET;
+	vsp -= A_BUTTON * KAIJU_GRAV_OFFSET ;
 
 	return _jumped;
 }

@@ -1,14 +1,15 @@
-/// @function kaiju_initialize(_maxHP, _head, _body)
+/// @function kaiju_initialize(_maxHP, _head, _body, _color)
 /// @description initializes variables for a doll object.
 /// @param _maxHP maximum hp for this monster
 /// @param _headSprite The head sprite for this monster.
 /// @param _bodySprite The body sprite for this monster.
-function kaiju_initialize(_maxHP, _headSprite, _bodySprite)
+function kaiju_initialize(_maxHP, _headSprite, _bodySprite, _color)
 {
 	maxHP = _maxHP;
 	hp = maxHP;
 	headSprite = _headSprite;
 	bodySprite = _bodySprite;
+	color = _color;
 	
 	//The angle the spell is being cast at. If no spell is being cast it is at -1.
 	angle = -1;
@@ -24,6 +25,9 @@ function kaiju_initialize(_maxHP, _headSprite, _bodySprite)
 
 	//Which direction the doll is attempting to move.
 	hdir = 0;
+	
+	//How long the character stays flickering.
+	flicker = FLICKER;
 	
 	//Which direction the doll is facing.
 	facing = sign(image_xscale);
@@ -41,6 +45,9 @@ function kaiju_initialize(_maxHP, _headSprite, _bodySprite)
 	//Coordinates of the target.This value is just for players. npcs should use target.x and target.y
 	targetX  = 0;
 	targetY = 0;
+	
+	//Whether the object is on the ground or not.
+	grounded = place_meeting(x, bbox_bottom + 1, GROUND);
 }
 
 

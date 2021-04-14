@@ -1,7 +1,7 @@
 ///Macros and enums
 
 	//player constants
-#macro PLAYER_FLICKER (game_get_speed(gamespeed_fps) * 3)
+#macro FLICKER (game_get_speed(gamespeed_fps) * 2)
 
 
 //Kaiju constants.
@@ -9,6 +9,7 @@
 #macro KAIJU_ACCEL 2
 #macro KAIJU_MAX_SPEED 6
 #macro KAIJU_JUMP_HEIGHT 5
+#macro KAIJU_GRAV_OFFSET  grav/2
 
 	//numeric game values.
 #macro NPC_FLICKER (game_get_speed(gamespeed_fps) * 2)
@@ -25,7 +26,7 @@
 #macro GROUND abs_ground //parent object for block and oneway platforms.
 #macro BLOCK obj_block //Wall objects.
 #macro PLAYER obj_player //Pointer to player object. There should only be one on the map at once.
-#macro ROOM_TITLE_SCREEN noone //Title screen room.
+#macro ROOM_TITLE_SCREEN room_test //Title screen room.
 #macro ROOM_CHARACTER_CREATOR noone
 #macro ROOM_INTRO_SCREEN noone //Title screen room.
 #macro ROOM_START_GAME room_test//Points to starting room.
