@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":3,},
     {"id":{"name":"spr_kaijuHead1","path":"sprites/spr_kaijuHead1/spr_kaijuHead1.yy",},"order":1,},
     {"id":{"name":"spr_stickyHand","path":"sprites/spr_stickyHand/spr_stickyHand.yy",},"order":4,},
     {"id":{"name":"spr_fireball","path":"sprites/spr_fireball/spr_fireball.yy",},"order":2,},
@@ -38,7 +38,7 @@
     {"id":{"name":"obj_titleScreen","path":"objects/obj_titleScreen/obj_titleScreen.yy",},"order":0,},
     {"id":{"name":"room_initialize","path":"rooms/room_initialize/room_initialize.yy",},"order":0,},
     {"id":{"name":"menu","path":"scripts/menu/menu.yy",},"order":6,},
-    {"id":{"name":"abs_physics","path":"objects/abs_physics/abs_physics.yy",},"order":6,},
+    {"id":{"name":"abs_physics","path":"objects/abs_physics/abs_physics.yy",},"order":2,},
     {"id":{"name":"abs_bullet","path":"objects/abs_bullet/abs_bullet.yy",},"order":0,},
     {"id":{"name":"globals","path":"scripts/globals/globals.yy",},"order":5,},
     {"id":{"name":"abs_npc","path":"objects/abs_npc/abs_npc.yy",},"order":5,},

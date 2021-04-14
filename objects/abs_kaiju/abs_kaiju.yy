@@ -11,8 +11,8 @@
   },
   "persistent": false,
   "parentObjectId": {
-    "name": "",
-    "path": "",
+    "name": "abs_physics",
+    "path": "objects/abs_physics/abs_physics.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
