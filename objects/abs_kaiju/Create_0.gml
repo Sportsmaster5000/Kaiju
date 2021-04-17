@@ -1,4 +1,4 @@
 /// @description Insert description here
-phys_create(0.25, 0.5, 0, 0, true);
+phys_create(0.27, 1, 0, 0, true);
 
 scale = image_xscale;

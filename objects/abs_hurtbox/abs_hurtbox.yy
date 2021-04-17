@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "abstract",
-    "path": "folders/LostNFound/Objects/abstract.yy",
+    "name": "blocks",
+    "path": "folders/Objects/blocks.yy",
   },
   "resourceVersion": "1.0",
   "name": "abs_hurtbox",

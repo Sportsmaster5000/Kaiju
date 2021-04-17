@@ -116,12 +116,19 @@ function kaiju_animate()
 /// @description draws the kaiju object.
 function kaiju_draw() 
 {
-	//offset. 
-	//TODO: Find a slightly better way to check if running or not.
-	
-	//Some clothes have values added to y when moving.
 	draw_sprite_ext(headSprite, image_index, x, y, image_xscale, image_yscale, image_angle, color, image_alpha);
 	draw_sprite_ext(bodySprite, image_index, x, y, image_xscale, image_yscale, image_angle, color, image_alpha);
+}
+
+
+/// @function kaiju_draw_ext(_x, _y, _scale, _angle)
+/// @description draws the kaiju object with extra variables inputted.'
+/// @param _x x coordinate the kaiju is drawn at
+/// @param _y y coordinate the kaiju is drawn at
+function kaiju_draw_ext(_x, _y, _scale, _angle) 
+{
+	draw_sprite_ext(headSprite, image_index, _x, _y, _scale, _scale, _angle, color, image_alpha);
+	draw_sprite_ext(bodySprite, image_index, _x, _y, _scale, _scale, _angle, color, image_alpha);
 }
 
 

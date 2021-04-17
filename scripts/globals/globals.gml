@@ -10,9 +10,18 @@ function globals()
 	//Indexes for player clothing options.
 	global.playerHeadIndex = 0;
 	global.playerBodyIndex = 0;
+	global.playerColorIndex = 0;
 	
 	//Color indexes.
-	global.playerColor = c_orange;
+	global.colors[0] = c_orange;
+	global.colors[1] = c_lime;
+	global.colors[2] = c_red;
+	global.colors[3] = c_blue;
+	global.colors[4] = c_yellow;
+	global.colors[5] = c_white;
+	global.colors[6] = c_gray;
+	global.colors[7] = c_dkgray;
+	global.colors[8] = c_green;
 
 	
 	//Bodies.

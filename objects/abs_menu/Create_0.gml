@@ -2,4 +2,6 @@
 var _array;
 _array[0] = "";
 
+
+
 menu_create(_array);
